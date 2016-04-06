@@ -15,5 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
-/config/*.*
+/config/*.yml
 sftp-config.json

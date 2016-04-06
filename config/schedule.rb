@@ -10,10 +10,10 @@ set :output, "log/cron_log.log"
 every 1.day, at: '9:00am' do
   rake "events:breakfast"
 end
-every 1.day, at: '12:00pm' do
+every 1.day, at: '12:30pm' do
   rake "events:lunch"
 end
-every 1.day, at: '6:00pm' do
+every 1.day, at: '6:30pm' do
   rake "events:dinner"
 end
 #
