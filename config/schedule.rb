@@ -16,6 +16,9 @@ end
 every 1.day, at: '6:30pm' do
   rake "events:dinner"
 end
+every 1.day, at: '11:58pm' do
+  rake "log:clear"
+end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"
